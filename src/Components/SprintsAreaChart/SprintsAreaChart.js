@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import rangeData from "../../Data/SprintsAreaChartData";
-import "../../index.css"
+import "../../index.css";
 import "./SprintsAreaChart.css";
 
 const CustomTooltip = ({ active, payload, label }) => {
