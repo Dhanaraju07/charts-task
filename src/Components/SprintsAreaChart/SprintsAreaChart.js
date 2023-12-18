@@ -80,7 +80,7 @@ const SprintsAreaChart = () => {
               <YAxis
                 ticks={[0, 10, 20, 30, 40, 50, 60]}
                 label={{
-                  value: "Stay Point(Days)",
+                  value: "Story Point(Days)",
                   angle: -90,
                   position: "insideLeft",
                 }}

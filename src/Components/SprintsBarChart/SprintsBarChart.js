@@ -62,7 +62,7 @@ const SprintsBarChart = () => {
           <YAxis
             ticks={[0, 50, 100, 150, 200]}
             label={{
-              value: "Stay Point(SP)",
+              value: "Story Point(SP)",
               angle: -90,
               position: "insideLeft",
             }}
