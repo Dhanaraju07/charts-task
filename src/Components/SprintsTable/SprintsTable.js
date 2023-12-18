@@ -30,4 +30,4 @@ const SprintsTable = () => {
   );
 };
 
-export default SprintsTable;
+export default SprintsTable
