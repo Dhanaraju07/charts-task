@@ -1,6 +1,6 @@
 import React from "react";
 import { tableHeader, sprintsTableData } from "../../Data/SprintsTableData";
-import "../../GlobalStyles/styles.css";
+import "../../index.css";
 import "./SprintsTable.css";
 
 const SprintsTable = () => {

@@ -1,6 +1,7 @@
 const sprintsBarData = [
     {
       name: "",
+      month:"Jan",
       sp_planned: 0,
       sp_added: 0,
       sp_completed: 0,
@@ -8,6 +9,7 @@ const sprintsBarData = [
     },
     {
       name: "S1",
+      month: "Jan",
       sp_planned: 0,
       sp_added: 100,
       sp_completed: 70,
@@ -15,6 +17,7 @@ const sprintsBarData = [
     },
     {
       name: "S2",
+      month: "Feb",
       sp_planned: 0,
       sp_added: 150,
       sp_completed: 100,
@@ -22,6 +25,7 @@ const sprintsBarData = [
     },
     {
       name: "S3",
+      month: "Mar",
       sp_planned: 85,
       sp_added: 50,
       sp_completed: 75,
@@ -29,6 +33,7 @@ const sprintsBarData = [
     },
     {
       name: "S4",
+      month: "Apr",
       sp_planned: 120,
       sp_added: 40,
       sp_completed: 65,
@@ -36,6 +41,7 @@ const sprintsBarData = [
     },
     {
       name: "S5",
+      month: "May",
       sp_planned: 90,
       sp_added: 45,
       sp_completed: 80,
@@ -43,6 +49,7 @@ const sprintsBarData = [
     },
     {
       name: "Forecast 1",
+      month: "Jun",
       sp_planned: 0,
       sp_added: 0,
       sp_completed: 0,
@@ -50,6 +57,7 @@ const sprintsBarData = [
     },
     {
       name: "",
+      month: "Jul",
       sp_planned: 0,
       sp_added: 0,
       sp_completed: 0,

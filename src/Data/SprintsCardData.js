@@ -2,6 +2,7 @@ const sprintsCardData = [
   {
     sprint_name: "Sprint Forecast",
     sprint_value: 4,
+    note: "Estimated End Date: 30/07/2023",
   },
   {
     sprint_name: "SP Completed",
@@ -9,7 +10,7 @@ const sprintsCardData = [
   },
   {
     sprint_name: "Overall Progress",
-    sprint_value: 95,
+    sprint_value: "95%"
   },
 ];
 
