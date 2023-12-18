@@ -30,7 +30,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         <p>{`${label} 01 - ${label} 31, 2023`}</p>
         <div className="issue_container">
           <p>Issue Opened</p>
-          <p>{`${issueCompletedValue}d`}</p>
+          <p>{`${issueOpenValue}d`}</p>
         </div>
         <div className="issue_container">
           <p>Issue Started</p>
@@ -38,7 +38,7 @@ const CustomTooltip = ({ active, payload, label }) => {
         </div>
         <div className="issue_container">
           <p>Issue Completed</p>
-          <p>{`${issueOpenValue}d`}</p>
+          <p>{`${issueCompletedValue}d`}</p>
         </div>
       </div>
     );
@@ -87,8 +87,8 @@ const SprintsAreaChart = () => {
               />
               <Area
                 dataKey="values.issueOpen"
-                stroke="var(--primary-color)"
-                fill="var(--primary-color)"
+                stroke="var(--third-color)"
+                fill="var(--third-color)"
               />
               <Area
                 dataKey="values.issueStarted"
@@ -97,8 +97,8 @@ const SprintsAreaChart = () => {
               />
               <Area
                 dataKey="values.issueCompleted"
-                stroke="var(--third-color)"
-                fill="var(--third-color)"
+                stroke="var(--primary-color)"
+                fill="var(--primary-color)"
               />
             </AreaChart>
           </ResponsiveContainer>
