@@ -16,7 +16,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
     const monthIndex = rangeData.findIndex((item) => item.month === label);
     const issueCompletedValue = Math.floor(
-      rangeData[monthIndex].values.issueCompleted[0]
+      rangeData[monthIndex].values.issueCompleted[1]
     );
     const issueStartedValue = Math.floor(
       rangeData[monthIndex].values.issueStarted[0]
